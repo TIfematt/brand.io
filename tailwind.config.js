@@ -17,7 +17,7 @@ module.exports = {
         'logo': "url('assets/logo.png')"
       },
       colors: {
-        'primary': '#F8F8FF'
+        'primary': '#3E4581',
       }
     },
   },

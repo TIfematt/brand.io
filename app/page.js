@@ -4,9 +4,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <header className="w-full h-3/4 bg-black-600">
-      <nav className="nav">
-          <Nav />
-      </nav>
+      <Nav />
       <div>
         <Image 
           src='/assets/downArrow.png'
