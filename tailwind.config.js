@@ -14,6 +14,9 @@ module.exports = {
       backgroundImage: {
         'line': "url('assets/Lines.png')",
         'ellipse': "url('assets/Ellipse.png')"
+      },
+      colors: {
+        'primary': '#F8F8FF'
       }
     },
   },
