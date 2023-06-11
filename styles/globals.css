@@ -49,8 +49,14 @@
   display: flex;
   gap: 20px;
   /* justify-content: flex-end; */
-  align-items: flex-end;
+  align-items: flex-start;
   flex-direction: column;
-  
+  background-color: #4EF0F0;
+}
+.nav-close {
+  position: relative;
+  left: 350px;
+  width: 7%;
+  height: 7%;
 }
 
