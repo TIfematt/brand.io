@@ -1,5 +1,6 @@
 import '@styles/globals.css'
-import Nav from '@components/Nav'
+// import Nav from '@components/Nav'
+// import Loader from '@components/Loader';
 
 export const metadata = {
   title: 'Brand Rep',
@@ -10,9 +11,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <nav className='nav'>
-          <Nav />
-        </nav>
         <main className='app'>
           {children}
         </main>

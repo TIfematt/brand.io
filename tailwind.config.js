@@ -13,7 +13,8 @@ module.exports = {
       },
       backgroundImage: {
         'line': "url('assets/Lines.png')",
-        'ellipse': "url('assets/Ellipse.png')"
+        'ellipse': "url('assets/Ellipse.png')",
+        'logo': "url('assets/logo.png')"
       },
       colors: {
         'primary': '#F8F8FF'
