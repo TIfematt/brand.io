@@ -13,14 +13,14 @@ const Nav = () => {
                 height={34}
             />
         </Link>
-        <div className="flex gap-11 text-primary">
-            <Link href='/' className="">Home</Link>
-            <Link href='/about'>About-Us</Link>
-            <Link href='/services'>Services</Link>
-            <Link href='/contact'>Contact-Us</Link>
+        <div className="flex gap-11 text-primary filter drop-shadow-lg font-bold font-inter ">
+            <Link href='/' className="nav-link-home">Home</Link>
+            <Link href='/about' className="nav-link">About-Us</Link>
+            <Link href='/services' className="nav-link">Services</Link>
+            <Link href='/contact' className="nav-link">Contact-Us</Link>
         </div>
         <div>
-            <button>Login</button>
+            <button className="w-24 h-12 rounded-bg bg-red-600 text-white font-bold ">Login</button>
         </div>
     </nav>
   )
