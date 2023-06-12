@@ -12,7 +12,7 @@ const Nav = () => {
     const [toggle, setToggle] = useState(false)
 
   return (
-    <nav className=" mx-10 my-5 flex justify-between sm:mx-5 sm:my-9 sm:justify-around sm:items-center"> 
+    <nav className=" mx-10 my-10 flex justify-between sm:mx-5 sm:my-12 sm:justify-around sm:items-center"> 
         <Link href='/' className="">
             <Image
                 src='/assets/logo.png'

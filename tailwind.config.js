@@ -12,9 +12,9 @@ module.exports = {
         inter: ['Inter', 'sans-serif'],
       },
       backgroundImage: {
-        'line': "url('assets/Lines.png')",
-        'ellipse': "url('assets/Ellipse.png')",
-        'logo': "url('assets/logo.png')"
+        'line': "url('/public/assets/Lines.png')",
+        'ellipse': "url('/public/assets/Ellipse.png')",
+        'logo': "url('/public/assets/logo.png')"
       },
       colors: {
         'primary': '#3E4581',

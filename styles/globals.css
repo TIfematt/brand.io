@@ -60,3 +60,14 @@
   height: 7%;
 }
 
+header {
+  background-image: url('/assets/Lines.png');
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+}
+.hero-heading {
+  background: var(--text-background);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* color: green; */
+}
