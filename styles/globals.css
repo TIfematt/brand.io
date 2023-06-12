@@ -34,6 +34,50 @@
   background: var(--background-btn);
   
 }
+
+/* gradient button and text */
+
+.btn-white {
+  background: var(--background-btn);
+  position: relative;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  z-index: 1;
+}
+
+.btn-white::before {
+  content: "";
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  bottom: 1px;
+  left: 1px;
+  background-color: white;
+  border-radius: 4px;
+  z-index: -1;
+}
+
+.btn-white::after {
+  content:"Contact Us";
+  background: var(--background-btn);
+  background-clip: content-box;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.btn-white:hover::before {
+  opacity: 50%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+.btn-white:hover::after{
+  color: white;
+}
+
 .nav-mobile {
   position: fixed;
   top: 0;
