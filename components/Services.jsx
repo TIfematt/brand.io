@@ -12,7 +12,7 @@ const Services = () => {
     // }
 
   return (
-    <div>
+    <>
         <section className='flex flex-col items-center justify-center gap-7'>
             <h1 className='hero-heading text-4xl sm:text-6xl font-semibold font-inter'>What we Offer?</h1>
             <p className='max-w-2xl text-center text-primary filter drop-shadow-lg'> In virtual space through communication platforms.
@@ -126,8 +126,7 @@ const Services = () => {
                 </div>
             </div>
         </section>
-
-    </div>
+    </>
   )
 }
 

@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main>
+    <>
       <header className="w-full -mt-6 sm:overflow-x-hidden">
         <Nav />
         <div className="relative">
@@ -22,7 +22,7 @@ export default function Home() {
             <h1 className="ml-6 mt-10 sm:-mt-12 hero-heading sm:max-w-xl text-6xl lg:text-8xl font-extrabold ">
               Tell a better brand story
             </h1>
-            <p className="mx-6  sm:mt-6 text-primary sm:max-w-xl text-xl font-bold filter drop-shadow-lg">
+            <p className="mx-6 sm:mt-6 text-primary sm:max-w-xl text-xl font-bold filter drop-shadow-lg">
               Warrant present garrets limited cordial in inquiry to. 
               Supported me sweetness behaviour shameless excellent so arranging.
             </p>
@@ -41,7 +41,6 @@ export default function Home() {
             />
           </div>
         </section>
-        <div className="w-full h-1/4"/>
       </header>
       {/* Brands worked with */}
       <section className="-mt-12 sm:-mt-20 mx-12 sm:mx-24 md:mx-60 flex items-center justify-center flex-col gap-20">
@@ -52,11 +51,11 @@ export default function Home() {
           height={32}
         />
         {/* What we offer */}
-        <article >
-          <Services />
-        </article>
+        <Services />
       </section>
-    </main>
+      <div className="rectangle-bg "/>
+      <div className="circle-bg "/>
+    </>
 
   )
 }
