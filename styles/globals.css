@@ -118,6 +118,7 @@ header {
 
 .message-icon {
   background-image: url('/assets/messageIcon.png');
+  background-size: cover;
   width: 160px;
   height: 160px;
 }
