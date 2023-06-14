@@ -99,7 +99,7 @@
 }
 .nav-close {
   position: relative;
-  left: 350px;
+  left: 250px;
   width: 7%;
   height: 7%;
 }
@@ -114,4 +114,10 @@ header {
   background-clip: text;
   -webkit-text-fill-color: transparent;
   /* color: green; */
+}
+
+.message-icon {
+  background-image: url('/assets/messageIcon.png');
+  width: 160px;
+  height: 160px;
 }
