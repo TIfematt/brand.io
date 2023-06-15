@@ -1,6 +1,7 @@
 import Nav from "@components/Nav";
 import Services from "@components/Services";
 import Image from "next/image";
+import Pricing from "@components/Pricing";
 
 
 export default function Home() {
@@ -55,6 +56,8 @@ export default function Home() {
       </section>
       <div className="rectangle-bg "/>
       <div className="circle-bg "/>
+      {/* Our plans section */}
+      <Pricing />
     </>
 
   )

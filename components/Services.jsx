@@ -14,8 +14,11 @@ const Services = () => {
   return (
     <>
         <section className='flex flex-col items-center justify-center gap-7'>
-            <h1 className='hero-heading text-4xl sm:text-6xl font-semibold font-inter'>What we Offer?</h1>
-            <p className='max-w-2xl text-center text-primary filter drop-shadow-lg'> In virtual space through communication platforms.
+            <h1 className='hero-heading text-4xl sm:text-6xl font-semibold font-inter'>
+                What we Offer?
+            </h1>
+            <p className='max-w-2xl text-center text-primary filter drop-shadow-lg'> 
+                In virtual space through communication platforms.
                 Durable relations that extend beyond immediate
                 genealogical ties.
             </p>
@@ -125,7 +128,44 @@ const Services = () => {
                     </p>
                 </div>
             </div>
+
+            {/* how it works */}
+            <div className='sm:flex mt-28  sm:gap-32'>
+                <div className=' sm:relative sm:-top-40 flex flex-col items-center justify-center gap-8'>
+                    <h1 className='hero-heading  text-4xl sm:text-6xl font-semibold font-inter sm:relative sm:-left-14'>
+                        How it works?
+                    </h1>
+                    <p className='max-w-lg text-left text-primary filter drop-shadow-lg'>
+                        Resolving neglected sir tolerably but existence conveying for. Day his 
+                        put off unaffected literature partiality inhabiting.
+                    </p>
+                    <Image 
+                        src='/assets/Card01.png'
+                        width={475}
+                        height={580}
+                    />
+
+                </div>
+                <div className='sm:flex sm:flex-col sm:gap-12'>
+                    <Image 
+                        src='/assets/Card02.png'
+                        width={450}
+                        height={500}
+                    />
+                    <Image 
+                        src='/assets/Card03.png'
+                        width={450}
+                        height={500}
+                    />
+                </div>
+            </div>
         </section>
+        <Image 
+            src='/assets/upArrow.png'
+            width={318}
+            height={274}
+            className='hidden sm:flex absolute inset-x-0 down-arrow'
+        />
     </>
   )
 }

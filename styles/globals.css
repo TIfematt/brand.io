@@ -11,7 +11,10 @@
 @tailwind components;
 @tailwind utilities;
 
+/* .app {
+  background-color: #ECEEFF ;
 
+} */
 
 .text--gradient {
   background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%), #3E4581, transparent;
@@ -130,14 +133,16 @@ header {
   /* height: 256px; */
   height: 80vh;
   width: 100vw;
-  background-color: gray;
+  background-color: #e9e9f0;
 
   opacity: 20%;
   position: absolute;
   top: 350px;
-  z-index: -1;
+  z-index: 0;
   /* transform: rotate(-10deg); */
   transform: skew(0, -10deg);
+  filter: drop-shadow(100px 0 8mm rgb(63, 60, 60));
+
 
 
 }
@@ -151,7 +156,16 @@ header {
   position: absolute;
   background-color: whitesmoke ;
   top: 280px;
-  z-index: -10;
+  z-index: -1;
   border-radius: 1000px;
   filter: drop-shadow(100px 0 8mm rgb(63, 60, 60));
+}
+
+.down-arrow {
+  margin-top: 1900px;
+}
+.price-card {
+  background-color: yellow;
+  width: 500px;
+  height: 500px;
 }
