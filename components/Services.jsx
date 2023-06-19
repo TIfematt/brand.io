@@ -3,14 +3,6 @@ import Image from 'next/image'
 
 const Services = () => {
 
-    // const imageStyle = {
-    //     width: '370px',
-    //     height: '270px',
-    //     position: 'relative',
-    //     top: '6px'
-
-    // }
-
   return (
     <>
         <section className='flex flex-col items-center justify-center gap-7'>
