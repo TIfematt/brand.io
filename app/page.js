@@ -2,6 +2,7 @@ import Nav from "@components/Nav";
 import Services from "@components/Services";
 import Image from "next/image";
 import Pricing from "@components/Pricing";
+import Testimonials from "@components/Testimonials";
 
 
 export default function Home() {
@@ -58,6 +59,8 @@ export default function Home() {
       <div className="circle-bg "/>
       {/* Our plans section */}
       <Pricing />
+      {/* Testimonial section */}
+      <Testimonials />
     </>
 
   )

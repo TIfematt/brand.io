@@ -13,8 +13,8 @@ const Pricing = () => {
         <div className="sm:flex sm:gap-5 flex flex-col sm:flex-row gap-8  mt-20">
           {card ({
             cardStyle: 'w-88 h-128 bg-white rounded-lg flex flex-col items-center justify-center gap-10 shadow-lg',
-            titleStyle: 'font-inter text-lg font-bold capitaliz mt-12',
-            listStyle: 'flex items-center justify-start gap-4 mx-12',
+            titleStyle: 'font-inter text-lg text-primary font-bold capitaliz mt-12',
+            listStyle: 'flex items-center text-primary justify-start gap-4 mx-12',
             title:'For Starter',
             amount: '$59',
             descriptions: ['Feedback Categorization', 
@@ -22,16 +22,14 @@ const Pricing = () => {
                             'Real-Time Collaboration',
                             'Feedback Loop Notifications',
                             'Essential Dev Tools Integrations'
-
-                          
                           ],
-            button: 'Contact Us',
+            button: '',
             buttonStyle: 'mb-12 w-44 h-12 btn-white rounded-lg font-bold border-2 filter drop-shadow-lg'
           })}
           {card ({
             cardStyle: 'gap-10 w-88 h-128 bg-primaryCard rounded-lg flex flex-col items-center justify-center shadow-lg',
-            titleStyle: 'font-inter text-lg font-bold capitaliz mt-12',
-            listStyle: 'flex items-center justify-start gap-4 mx-12',
+            titleStyle: 'text-white font-inter text-lg font-bold capitaliz mt-12',
+            listStyle: 'text-white flex items-center justify-start gap-4 mx-12',
             title:'For Teams',
             amount: '$99',
             descriptions: ['Feedback Categorization', 
@@ -39,33 +37,25 @@ const Pricing = () => {
                             'Real-Time Collaboration',
                             'Feedback Loop Notifications',
                             'Essential Dev Tools Integrations'
-
-                          
                           ],
             button: 'Purchase Package',
             buttonStyle: 'mb-12 w-44 h-12 btn rounded-lg text-white font-bold filter drop-shadow-lg'
           })}
           {card ({
             cardStyle: 'gap-10 w-88 h-128  rounded-lg flex flex-col items-center justify-center shadow-lg',
-            titleStyle: 'font-inter text-lg font-bold capitaliz mt-12',
-            listStyle: 'flex items-center justify-start gap-4 mx-12',
+            titleStyle: 'text-primary font-inter text-lg font-bold capitaliz mt-12',
+            listStyle: 'text-primary flex items-center justify-start gap-4 mx-12',
             title:'For Company',
             amount: 'Custom',
             descriptions: ['Feedback Categorization', 
-                            
-                            
                             'Feedback Loop Notifications',
                             'Essential Dev Tools Integrations'
-
-                          
                           ],
-            button: 'Contact Us',
-            buttonStyle: 'mb-12 w-44 h-12 btn rounded-lg text-white font-bold filter drop-shadow-lg'
+            button: '',
+            buttonStyle: 'mb-12 w-44 h-12 btn-white rounded-lg font-bold border-2 filter drop-shadow-lg'
           })}
 
         </div>
-
-
     </section>
   )
 }

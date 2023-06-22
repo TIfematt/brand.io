@@ -16,6 +16,10 @@
 
 } */
 
+.app {
+  overflow-x: hidden;
+}
+
 .text--gradient {
   background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%), #3E4581, transparent;
   -webkit-background-clip: text;
