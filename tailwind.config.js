@@ -20,8 +20,12 @@ module.exports = {
         'primary': '#3E4581',
         'primaryCard': '#481177',
         'secondary': 'linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%), linear-gradient(106.23deg, #4EF0F0 0%, #05C580 100%)',
-        // 'tertiary': '#ECEEFF'
-
+        'tertiary': '#F8F3FF',
+        'tertiaryInput': '#1C1E32',
+        'copyright': '#ADADAD'
+      },
+      spacing: {
+        '152': '38rem'
       }
     },
   },

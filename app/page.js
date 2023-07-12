@@ -3,7 +3,8 @@ import Services from "@components/Services";
 import Image from "next/image";
 import Pricing from "@components/Pricing";
 import Testimonials from "@components/Testimonials";
-
+import CTA from "@components/CTA";
+import Footer from "@components/Footer";
 
 export default function Home() {
   return (
@@ -33,7 +34,7 @@ export default function Home() {
               <button className="w-44 h-12 btn-white rounded-lg font-bold border-2 filter drop-shadow-lg"></button>
             </div>
           </div>
-          <div className="relative  sm:-top-40 ">
+          <div className="relative  sm:-top-40">
             <Image 
               src='/assets/HeroImage.png'
               alt="hero-image"
@@ -56,11 +57,13 @@ export default function Home() {
         <Services />
       </section>
       <div className="rectangle-bg "/>
-      <div className="circle-bg "/>
+      {/* <div className="circle-bg "/> */}
       {/* Our plans section */}
       <Pricing />
       {/* Testimonial section */}
       <Testimonials />
+      <CTA />
+      <Footer />
     </>
 
   )

@@ -135,7 +135,7 @@ header {
   /* background-image: url('/assets/rectangle.png'); 
   background-size: cover; */
   /* height: 256px; */
-  height: 80vh;
+  height: 79rem;
   width: 100vw;
   background-color: #e9e9f0;
 
@@ -146,8 +146,6 @@ header {
   /* transform: rotate(-10deg); */
   transform: skew(0, -10deg);
   filter: drop-shadow(100px 0 8mm rgb(63, 60, 60));
-
-
 
 }
 
@@ -173,4 +171,8 @@ header {
   width: 362px;
   height: 508px;
   position: relative;
+}
+.icon__color {
+  color: #3E4581;
+  filter: drop-shadow(0px 1.0370370149612427px 2.4791667461395264px rgba(0, 0, 0, 0.05)) drop-shadow(0px 4.562963008880615px 5.133333206176758px rgba(0, 0, 0, 0.09)) drop-shadow(0px 11.199999809265137px 10.237500190734863px rgba(0, 0, 0, 0.11)) drop-shadow(0px 21.570369720458984px 20.066667556762695px rgba(0, 0, 0, 0.13)) drop-shadow(0px 36.296295166015625px 36.89583206176758px rgba(0, 0, 0, 0.17)) drop-shadow(0px 56px 63px rgba(0, 0, 0, 0.22));
 }

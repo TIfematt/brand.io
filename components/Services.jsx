@@ -1,5 +1,9 @@
 import React from 'react'
 import Image from 'next/image'
+import {BiSupport} from 'react-icons/bi'
+import {MdSecurity, MdOutlineContactSupport, MdOutlineFormatPaint} from 'react-icons/md'
+import {TbWorld} from 'react-icons/tb'
+import {RxUpdate} from 'react-icons/rx'
 
 const Services = () => {
 
@@ -16,106 +20,64 @@ const Services = () => {
             </p>
         </section>
         {/* cards */}
-        <section className='mt-16 flex flex-col gap-12 sm:flex  sm:gap-12 sm:flex-col items-center justify-center'>
+        <section className='flex flex-col gap-12 sm:flex  sm:gap-12 sm:flex-col items-center justify-center'>
             {/* row one */}
             <div className='flex flex-col sm:flex-row gap-12 sm:flex sm:gap-8'>
-                <div className='px-4 w-64 h-60 bg-white border-lg shadow-sm'>
+                <div className='pl-[2.19rem] pr-[1.69rem] pt-[2.25rem] w-[17.62rem] h-[16.85rem] bg-white border-lg shadow-sm'>
                     <div className='relative z-20 bg-gray-400 bg-opacity-25 filter drop-shadow-lg rounded-full w-12 h-12 flex items-center justify-center'>
-                        {/* <div className='message-icon z-30' /> */}
-                        {/* <Image
-                            src='/assets/messageIcon.png'
-                            style={imageStyle}
-                            width={180}
-                            height={120}
-                            alt='logo'
-                        /> */}
+                        <BiSupport className='w-[27.42px] h-[27.57px] bg-secondary'/>
                     </div>
-                    <h3 className='pt-6 text-lg font-bold font-inter'>Community Support</h3>
-                    <p className='pt-2 max-w-xm text-primary font-satoshi filter drop-shadow-lg'>
+                    <h3 className='pt-[2.5rem] pb-4 text-lg font-bold font-inter text-primary'>Community Support</h3>
+                    <p className='pt-1 max-w-xm text-primary font-satoshi '>
                         Apps keep work and information right at your fingertips—and
                         Slack keeps it all securely.
                     </p>
                 </div>
-                <div className='px-4 w-64 h-60 bg-white border-lg shadow-sm'>
+                <div className='pl-[2.19rem] pr-[1.69rem] pt-[2.25rem] w-[17.62rem] h-[16.85rem] bg-white border-lg shadow-sm'>
                     <div className='relative z-20 bg-gray-400 bg-opacity-25 filter drop-shadow-lg rounded-full w-12 h-12 flex items-center justify-center'>
-                        {/* <div className='message-icon z-30' /> */}
-                        {/* <Image
-                            src='/assets/messageIcon.png'
-                            style={imageStyle}
-                            width={180}
-                            height={120}
-                            alt='logo'
-                        /> */}
+                     <MdSecurity className='w-[27.42px] h-[27.57px] icon__color'/>
                     </div>
-                    <h3 className='pt-6 text-lg font-bold font-inter'>Security Firstt</h3>
-                    <p className='pt-2 max-w-xm text-primary font-satoshi filter drop-shadow-lg'>
+                    <h3 className='pt-[2.5rem] pb-4 text-lg font-bold font-inter text-primary'>Security Firstt</h3>
+                    <p className='pt-2 max-w-xm text-primary font-satoshi '>
                         Connect the tools you already use to get more from them every time you work.
                     </p>
                 </div>
-                <div className='px-4 w-64 h-60 bg-white border-lg shadow-sm'>
+                <div className='pl-[2.19rem] pr-[1.69rem] pt-[2.25rem] w-[17.62rem] h-[16.85rem] bg-white border-lg shadow-sm'>
                     <div className='relative z-20 bg-gray-400 bg-opacity-25 filter drop-shadow-lg rounded-full w-12 h-12 flex items-center justify-center'>
-                        {/* <div className='message-icon z-30' /> */}
-                        {/* <Image
-                            src='/assets/messageIcon.png'
-                            style={imageStyle}
-                            width={180}
-                            height={120}
-                            alt='logo'
-                        /> */}
+                     <MdOutlineContactSupport className='w-[27.42px] h-[27.57px] icon__color'/>
                     </div>
-                    <h3 className='pt-6 text-lg font-bold font-inter'>24/7 Admin Support</h3>
-                    <p className='pt-2 max-w-xm text-primary font-satoshi filter drop-shadow-lg'>
+                    <h3 className='pt-[2.5rem] pb-4 text-lg font-bold font-inter text-primary'>24/7 Admin Support</h3>
+                    <p className='pt-2 max-w-xm text-primary font-satoshi '>
                         You can work with apps in channels, where they’re a seamless part of the conver.
                     </p>
                 </div>
             </div>
             {/* row two */}
             <div className='flex flex-col sm:flex-row gap-12 sm:flex sm:gap-8'>
-                <div className='px-4 w-64 h-60 bg-white border-lg shadow-sm'>
+                <div className='pl-[2.19rem] pr-[1.69rem] pt-[2.25rem] w-[17.62rem] h-[16.85rem] bg-white border-lg shadow-sm'>
                     <div className='relative z-20 bg-gray-400 bg-opacity-25 filter drop-shadow-lg rounded-full w-12 h-12 flex items-center justify-center'>
-                        {/* <div className='message-icon z-30' /> */}
-                        {/* <Image
-                            src='/assets/messageIcon.png'
-                            style={imageStyle}
-                            width={180}
-                            height={120}
-                            alt='logo'
-                        /> */}
+                      <MdOutlineFormatPaint className='w-[27.42px] h-[27.57px] icon__color'/>
                     </div>
-                    <h3 className='pt-6 text-lg font-bold font-inter'>100+ Themes</h3>
-                    <p className='pt-2 max-w-xm text-primary font-satoshi filter drop-shadow-lg'>
+                    <h3 className='pt-[2.5rem] pb-4 text-lg font-bold font-inter text-primary'>100+ Themes</h3>
+                    <p className='pt-2 max-w-xm text-primary font-satoshi '>
                         Spend less time tracking down the people needed to get work done.
                     </p>
                 </div>
-                <div className='px-4 w-64 h-60 bg-white border-lg shadow-sm'>
+                <div className='pl-[2.19rem] pr-[1.69rem] pt-[2.25rem] w-[17.62rem] h-[16.85rem] bg-white border-lg shadow-sm'>
                     <div className='relative z-20 bg-gray-400 bg-opacity-25 filter drop-shadow-lg rounded-full w-12 h-12 flex items-center justify-center'>
-                        {/* <div className='message-icon z-30' /> */}
-                        {/* <Image
-                            src='/assets/messageIcon.png'
-                            style={imageStyle}
-                            width={180}
-                            height={120}
-                            alt='logo'
-                        /> */}
+                      <TbWorld className='w-[27.42px] h-[27.57px] icon__color'/>
                     </div>
-                    <h3 className='pt-6 text-lg font-bold font-inter'>Fully Integrated</h3>
-                    <p className='pt-2 max-w-xm text-primary font-satoshi filter drop-shadow-lg'>
+                    <h3 className='pt-[2.5rem] pb-4 text-lg font-bold font-inter text-primary'>Fully Integrated</h3>
+                    <p className='pt-2 max-w-xm text-primary font-satoshi '>
                         Skip the follow-ups and back-and -forth. Easily standardize how you collect 
                     </p>
                 </div>
-                <div className='px-4 w-64 h-60 bg-white border-lg shadow-sm'>
+                <div className='pl-[2.19rem] pr-[1.69rem] pt-[2.25rem] w-[17.62rem] h-[16.85rem] bg-white border-lg shadow-sm'>
                     <div className='relative z-20 bg-gray-400 bg-opacity-25 filter drop-shadow-lg rounded-full w-12 h-12 flex items-center justify-center'>
-                        {/* <div className='message-icon z-30' /> */}
-                        {/* <Image
-                            src='/assets/messageIcon.png'
-                            style={imageStyle}
-                            width={180}
-                            height={120}
-                            alt='logo'
-                        /> */}
+                     <RxUpdate className='w-[27.42px] h-[27.57px] icon__color'/>
                     </div>
-                    <h3 className='pt-6 text-lg font-bold font-inter'>Monthly Update</h3>
-                    <p className='pt-2 max-w-xm text-primary font-satoshi filter drop-shadow-lg'>
+                    <h3 className='pt-[2.5rem] pb-4 text-lg font-bold font-inter text-primary'>Monthly Update</h3>
+                    <p className='pt-2 max-w-xm text-primary font-satoshi '>
                         Take control of your work day. In a just a few minutes, create a customized workflow 
                     </p>
                 </div>
@@ -124,10 +86,10 @@ const Services = () => {
             {/* how it works */}
             <div className='sm:flex mt-28  sm:gap-32'>
                 <div className=' sm:relative sm:-top-40 flex flex-col items-center justify-center gap-8'>
-                    <h1 className='hero-heading  text-4xl sm:text-6xl font-semibold font-inter sm:relative sm:-left-14'>
+                    <h1 className='hero-heading  text-4xl sm:text-6xl font-semibold font-inter sm:relative sm:-left-14 md:left-0'>
                         How it works?
                     </h1>
-                    <p className='max-w-lg text-left text-primary filter drop-shadow-lg'>
+                    <p className='max-w-lg text-left text-primary filter drop-shadow-lg lg:text-center'>
                         Resolving neglected sir tolerably but existence conveying for. Day his 
                         put off unaffected literature partiality inhabiting.
                     </p>
@@ -156,7 +118,7 @@ const Services = () => {
             src='/assets/upArrow.png'
             width={318}
             height={274}
-            className='hidden sm:flex absolute inset-x-0 down-arrow'
+            className='hidden lg:flex absolute inset-x-0 down-arrow'
         />
     </>
   )

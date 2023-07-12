@@ -4,7 +4,7 @@ import card from "./card"
 const Pricing = () => {
 
   return (
-    <section className="w-full sm:mx-32 flex flex-col items-center justify-center mt-36 ">
+    <section className="w-full  lg:mx-0 flex flex-col items-center justify-center mt-36 ">
         <div>
             <h1 className='hero-heading text-4xl sm:text-6xl font-semibold font-inter max-w-3xl text-center'>Our Plans Scale With Your Product</h1>
             <p className='text-primary filter drop-shadow-lg text-center mt-4'> in virtual space through communication platforms. </p>
