@@ -34,12 +34,12 @@ const Nav = () => {
 
         {/* mobile Navigation */}
         <div className="sm:hidden flex items-center h-full ">
-            <GiHamburgerMenu className="w-12 h-12" onClick={() => setToggle(true) } />
+            <GiHamburgerMenu className="w-12 h-12 text-primary" onClick={() => setToggle(true) } />
             {toggle && (
                 <motion.div
                     whileInView={{ x: [300, 0] }}
                     transition={{ duration: 0.85, ease: 'easeOut' }}
-                    className="nav-mobile bg-grey-600"
+                    className="nav-mobile bg-tertiary"
                 >
                     <GrClose onClick={() => setToggle(false)} className="nav-close"/>
                     <ul className="flex flex-col gap-y-7 -ml-1">

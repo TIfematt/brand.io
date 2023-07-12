@@ -23,7 +23,7 @@ const Services = () => {
         <section className='flex flex-col gap-12 sm:flex  sm:gap-12 sm:flex-col items-center justify-center'>
             {/* row one */}
             <div className='flex flex-col sm:flex-row gap-12 sm:flex sm:gap-8'>
-                <div className='pl-[2.19rem] pr-[1.69rem] pt-[2.25rem] w-[17.62rem] h-[16.85rem] bg-white border-lg shadow-sm'>
+                <div className='pl-[2.19rem] pr-[1.69rem] pt-[2.25rem] w-[17.62rem] h-[16.85rem] bg-[lightgoldenrodyellow] border-lg shadow-sm'>
                     <div className='relative z-20 bg-gray-400 bg-opacity-25 filter drop-shadow-lg rounded-full w-12 h-12 flex items-center justify-center'>
                         <BiSupport className='w-[27.42px] h-[27.57px] bg-secondary'/>
                     </div>
@@ -33,7 +33,7 @@ const Services = () => {
                         Slack keeps it all securely.
                     </p>
                 </div>
-                <div className='pl-[2.19rem] pr-[1.69rem] pt-[2.25rem] w-[17.62rem] h-[16.85rem] bg-white border-lg shadow-sm'>
+                <div className='pl-[2.19rem] pr-[1.69rem] pt-[2.25rem] w-[17.62rem] h-[16.85rem] bg-[lightgoldenrodyellow] border-lg shadow-sm'>
                     <div className='relative z-20 bg-gray-400 bg-opacity-25 filter drop-shadow-lg rounded-full w-12 h-12 flex items-center justify-center'>
                      <MdSecurity className='w-[27.42px] h-[27.57px] icon__color'/>
                     </div>
@@ -42,7 +42,7 @@ const Services = () => {
                         Connect the tools you already use to get more from them every time you work.
                     </p>
                 </div>
-                <div className='pl-[2.19rem] pr-[1.69rem] pt-[2.25rem] w-[17.62rem] h-[16.85rem] bg-white border-lg shadow-sm'>
+                <div className='pl-[2.19rem] pr-[1.69rem] pt-[2.25rem] w-[17.62rem] h-[16.85rem] bg-[lightgoldenrodyellow] border-lg shadow-sm'>
                     <div className='relative z-20 bg-gray-400 bg-opacity-25 filter drop-shadow-lg rounded-full w-12 h-12 flex items-center justify-center'>
                      <MdOutlineContactSupport className='w-[27.42px] h-[27.57px] icon__color'/>
                     </div>
@@ -54,7 +54,7 @@ const Services = () => {
             </div>
             {/* row two */}
             <div className='flex flex-col sm:flex-row gap-12 sm:flex sm:gap-8'>
-                <div className='pl-[2.19rem] pr-[1.69rem] pt-[2.25rem] w-[17.62rem] h-[16.85rem] bg-white border-lg shadow-sm'>
+                <div className='pl-[2.19rem] pr-[1.69rem] pt-[2.25rem] w-[17.62rem] h-[16.85rem] bg-[lightgoldenrodyellow] border-lg shadow-sm'>
                     <div className='relative z-20 bg-gray-400 bg-opacity-25 filter drop-shadow-lg rounded-full w-12 h-12 flex items-center justify-center'>
                       <MdOutlineFormatPaint className='w-[27.42px] h-[27.57px] icon__color'/>
                     </div>
@@ -63,7 +63,7 @@ const Services = () => {
                         Spend less time tracking down the people needed to get work done.
                     </p>
                 </div>
-                <div className='pl-[2.19rem] pr-[1.69rem] pt-[2.25rem] w-[17.62rem] h-[16.85rem] bg-white border-lg shadow-sm'>
+                <div className='pl-[2.19rem] pr-[1.69rem] pt-[2.25rem] w-[17.62rem] h-[16.85rem] bg-[lightgoldenrodyellow] border-lg shadow-sm'>
                     <div className='relative z-20 bg-gray-400 bg-opacity-25 filter drop-shadow-lg rounded-full w-12 h-12 flex items-center justify-center'>
                       <TbWorld className='w-[27.42px] h-[27.57px] icon__color'/>
                     </div>
@@ -72,7 +72,7 @@ const Services = () => {
                         Skip the follow-ups and back-and -forth. Easily standardize how you collect 
                     </p>
                 </div>
-                <div className='pl-[2.19rem] pr-[1.69rem] pt-[2.25rem] w-[17.62rem] h-[16.85rem] bg-white border-lg shadow-sm'>
+                <div className='pl-[2.19rem] pr-[1.69rem] pt-[2.25rem] w-[17.62rem] h-[16.85rem] bg-[lightgoldenrodyellow] border-lg shadow-sm'>
                     <div className='relative z-20 bg-gray-400 bg-opacity-25 filter drop-shadow-lg rounded-full w-12 h-12 flex items-center justify-center'>
                      <RxUpdate className='w-[27.42px] h-[27.57px] icon__color'/>
                     </div>
